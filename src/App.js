@@ -228,7 +228,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <h1 style={{textAlign: "center"}}>Demo Tweet</h1>
+        <h1 style={{textAlign: "center", margin: "0"}}>Demo Tweet</h1>
         <hr width="30%" align="center"></hr>
         <div style={{marginLeft : '5rem'}}>
           <h2>Create Tweet</h2>
