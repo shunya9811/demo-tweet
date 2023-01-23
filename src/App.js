@@ -117,9 +117,9 @@ class TweetImage extends React.Component{
   render() {
     const today = new Date();
     
-    let month = ("0" + today.getMonth()).slice(-2);
-    let days = ("0" + today.getDay()).slice(-2);
-    let stimeStamp = month + "月" + days + "日"
+    let month = ("0" + today.getMonth() + 1).slice(-2);
+    let days = ("0" + today.getDate()).slice(-2);
+    let stimeStamp = month + "月" + days + "日";
 
     let hours = ("0" + today.getHours()).slice(-2);
     let minutes = ("0" + today.getMinutes()).slice(-2);
